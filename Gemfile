@@ -7,8 +7,16 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'bootstrap-sass', '~> 3.3.5'
 gem 'rails', '~> 5.1.5'
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+gem 'jquery-rails'
 # Use sqlite3 as the database for Active Record
+gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
