@@ -13,6 +13,7 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
+gem 'stock_quote'
 # Use sqlite3 as the database for Active Record
 gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '3.1.5'
