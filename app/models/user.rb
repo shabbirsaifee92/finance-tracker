@@ -19,7 +19,12 @@ class User < ApplicationRecord
   end
 
   def can_add_stock?(ticker_symbol)
-    return true unless (has_stock?(ticker_symbol) || reached_stock_limit?)
+    return true unless has_stock?(ticker_symbol) || reached_stock_limit?
+  end
+
+  def full_name
+    return "#{first_name} #{last_name}".strip if first_name || last_name
+    'Anonymous'
   end
 
 end
